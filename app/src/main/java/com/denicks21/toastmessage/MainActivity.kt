@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // Button alert
         val btnShowAlertMessage: Button = findViewById(R.id.btn_show_alert_message)
         btnShowAlertMessage.setOnClickListener {
 
@@ -27,6 +28,7 @@ class MainActivity : AppCompatActivity() {
             toast.show()
         }
 
+        // Button confirm
         val btnShowConfirmMessage: Button = findViewById(R.id.btn_show_confirm_message)
         btnShowConfirmMessage.setOnClickListener {
 
