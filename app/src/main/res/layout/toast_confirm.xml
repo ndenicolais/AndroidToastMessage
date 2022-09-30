@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toast_confirm_layout"
+    android:background="@drawable/btn_toast_shape"
+    android:backgroundTint="#00AA8D"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/btn_confirm"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="3dp"/>
+
+    <TextView
+        android:id="@+id/toastText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="3dp"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+</LinearLayout>
