@@ -11,9 +11,9 @@
     <Button
         android:id="@+id/btn_show_alert_message"
         android:layout_width="320dp"
-        android:layout_height="80dp"
+        android:layout_height="70dp"
         android:layout_gravity="center"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="300dp"
         android:background="@drawable/btn_basic"
         android:text="Show Alert Message"
         android:textSize="20sp"/>
@@ -21,9 +21,9 @@
     <Button
         android:id="@+id/btn_show_confirm_message"
         android:layout_width="320dp"
-        android:layout_height="80dp"
+        android:layout_height="70dp"
         android:layout_gravity="center"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="50dp"
         android:layout_below="@+id/btn_show_alert_message"
         android:background="@drawable/btn_basic"
         android:text="Show Confirm Message"

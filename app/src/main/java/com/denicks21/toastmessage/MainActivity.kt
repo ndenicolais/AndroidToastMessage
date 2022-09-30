@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             toastText.text = "Confirm!"
             val toast = Toast(applicationContext)
             toast.setGravity(Gravity.BOTTOM, 0, 100)
-            toast.duration = Toast.LENGTH_LONG
+            toast.duration = Toast.LENGTH_SHORT
             toast.setView(layout)
             toast.show()
         }
