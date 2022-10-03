@@ -1,5 +1,6 @@
 # ToastMessage
 ## Screen preview
+
 ## Usage
 Set the location at which the notification should appear on the screen.
 ```
