@@ -17,15 +17,15 @@ class MainActivity : AppCompatActivity() {
         btnShowAlertMessage.setOnClickListener {
 
             // Custom toast message of alert
-            val inflater = layoutInflater
-            val layout = inflater.inflate(R.layout.toast_alert, findViewById(R.id.toast_alert_layout))
-            val toastText = layout.findViewById<TextView>(R.id.toastText)
+            val toastLayout = layoutInflater.inflate(R.layout.toast_alert,
+                findViewById(R.id.toast_alert_layout))
+            val toastText = toastLayout.findViewById<TextView>(R.id.toastText)
             toastText.text = "Alert!"
-            val toast = Toast(applicationContext)
-            toast.setGravity(Gravity.BOTTOM, 0, 100)
-            toast.duration = Toast.LENGTH_LONG
-            toast.setView(layout)
-            toast.show()
+            val customToast = Toast(this)
+            customToast.view = toastLayout
+            customToast.setGravity(Gravity.BOTTOM, 0, 10)
+            customToast.duration = Toast.LENGTH_LONG
+            customToast.show()
         }
 
         // Button confirm
@@ -33,15 +33,15 @@ class MainActivity : AppCompatActivity() {
         btnShowConfirmMessage.setOnClickListener {
 
             // Custom toast message of confirm
-            val inflater = layoutInflater
-            val layout = inflater.inflate(R.layout.toast_confirm, findViewById(R.id.toast_confirm_layout))
-            val toastText = layout.findViewById<TextView>(R.id.toastText)
+            val toastLayout = layoutInflater.inflate(R.layout.toast_confirm,
+                findViewById(R.id.toast_confirm_layout))
+            val toastText = toastLayout.findViewById<TextView>(R.id.toastText)
             toastText.text = "Confirm!"
-            val toast = Toast(applicationContext)
-            toast.setGravity(Gravity.BOTTOM, 0, 100)
-            toast.duration = Toast.LENGTH_SHORT
-            toast.setView(layout)
-            toast.show()
+            val customToast = Toast(this)
+            customToast.view = toastLayout
+            customToast.setGravity(Gravity.BOTTOM, 0, 10)
+            customToast.duration = Toast.LENGTH_LONG
+            customToast.show()
         }
     }
 }
