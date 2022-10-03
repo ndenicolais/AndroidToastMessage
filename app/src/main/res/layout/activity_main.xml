@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#FFECB3"
+    android:background="@color/background_color"
     android:padding="5dp"
     tools:context=".MainActivity">
 
@@ -17,7 +17,8 @@
         android:layout_marginTop="300dp"
         android:background="@drawable/btn_basic"
         android:text="Show Alert Message"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        android:textColor="@color/text_color"/>
 
     <Button
         android:id="@+id/btn_show_confirm_message"
@@ -28,5 +29,6 @@
         android:layout_below="@+id/btn_show_alert_message"
         android:background="@drawable/btn_basic"
         android:text="Show Confirm Message"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        android:textColor="@color/text_color"/>
 </androidx.appcompat.widget.LinearLayoutCompat>
