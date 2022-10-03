@@ -3,8 +3,8 @@
     android:id="@+id/toast_alert_layout"
     android:background="@drawable/btn_toast_shape"
     android:backgroundTint="#B00020"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
 
     <ImageView
         android:src="@drawable/btn_alert"
