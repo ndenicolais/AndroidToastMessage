@@ -1,4 +1,8 @@
 # ToastMessage
+Toast is a small popup notification that is used to display information about the operation which we performed in our app. The Toast will show the message for a small period of time and it will disappear automatically after a timeout. We can customize the layout of our toast notification to change the appearance of based on requirements like include images in toast notification or change the background color of toast notification, etc.
+
+Clicking on the button will show the corresponding Toast message
+
 ## Screen preview
 <p float="left">
 <img height="500em" src="ToastMessage0.png" title="ToastMessage's screen preview">
