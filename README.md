@@ -36,7 +36,7 @@ Show the view for the specified duration.
 ```
 customToast.show()
 ```
-## Custom buttons
+## Customize
 If you want to customize the button layout edit the .xml files in this path: ```\ToastMessage\app\src\main\res\layout ```
 
 If you want to customize the button icon edit the .xml files in this path: ```\ToastMessage\app\src\main\res\drawable ```
