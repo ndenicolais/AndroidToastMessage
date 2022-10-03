@@ -1,10 +1,5 @@
 # ToastMessage
 ## Screen preview
-<p float="left">
-<img height="500em" src="ToastMessagePreview0.png" title="ToastMessage's screen preview">
-<img height="500em" src="ToastMessagePreview1.png" title="ToastMessage's screen preview">
-</p>
-
 ## Usage
 Set the location at which the notification should appear on the screen.
 ```
