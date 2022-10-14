@@ -1,7 +1,12 @@
 # ToastMessage
+> <b>Author: Nicola De Nicolais</b>
+
+Toast is a small popup notification that is used to display information about the operation which we performed in our app. The Toast will show the message for a small period of time and it will disappear automatically after a timeout. We can customize the layout of our toast notification to change the appearance of based on requirements like include images in toast notification or change the background color of toast notification, etc.
+
+Clicking on the button will show the corresponding Toast message.
+
 ## Screen preview
 <p float="left">
-<img height="500em" src="ToastMessage0.png" title="ToastMessage's screen preview">
 <img height="500em" src="ToastMessage1.png" title="ToastMessage's screen preview">
 <img height="500em" src="ToastMessage2.png" title="ToastMessage's screen preview">
 </p>
@@ -36,3 +41,9 @@ Show the view for the specified duration.
 ```
 customToast.show()
 ```
+## Customize
+If you want to customize the button layout edit the .xml files in this path: ```\ToastMessage\app\src\main\res\layout ```
+
+If you want to customize the button icon edit the .xml files in this path: ```\ToastMessage\app\src\main\res\drawable ```
+
+Otherwise you can create new ones.
