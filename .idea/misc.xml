@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Developer2/AndroidStudioProjects/PRIVATES/ToastMessage/app/src/main/res/layout/activity_homescreen.xml" value="0.371875" />
+        <entry key="..\:/Users/Developer2/AndroidStudioProjects/PRIVATES/ToastMessage/app/src/main/res/layout/activity_main.xml" value="0.371875" />
+        <entry key="..\:/Users/Developer2/AndroidStudioProjects/PRIVATES/ToastMessage/app/src/main/res/layout/toast_alert.xml" value="0.371875" />
+        <entry key="..\:/Users/Developer2/AndroidStudioProjects/PRIVATES/ToastMessage/app/src/main/res/layout/toast_confirm.xml" value="0.371875" />
         <entry key="..\:/Users/Developer2/AndroidStudioProjects/ToastMessage/app/src/main/res/drawable/btn_alert.xml" value="0.334" />
         <entry key="..\:/Users/Developer2/AndroidStudioProjects/ToastMessage/app/src/main/res/drawable/btn_basic.xml" value="0.334" />
         <entry key="..\:/Users/Developer2/AndroidStudioProjects/ToastMessage/app/src/main/res/drawable/btn_confirm.xml" value="0.334" />

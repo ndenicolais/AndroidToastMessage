@@ -18,7 +18,7 @@
         android:background="@drawable/btn_basic"
         android:text="Show Alert Message"
         android:textSize="20sp"
-        android:textColor="@color/text_color"/>
+        android:textColor="@color/secondary"/>
 
     <Button
         android:id="@+id/btn_show_confirm_message"
@@ -30,5 +30,5 @@
         android:background="@drawable/btn_basic"
         android:text="Show Confirm Message"
         android:textSize="20sp"
-        android:textColor="@color/text_color"/>
+        android:textColor="@color/secondary"/>
 </androidx.appcompat.widget.LinearLayoutCompat>
